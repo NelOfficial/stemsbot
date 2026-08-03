@@ -21,4 +21,4 @@ async def cmd_stats(message: Message):
         )
         await message.answer(text, parse_mode="Markdown")
     else:
-        await message.answer("Статистика пока пуста.")
+        await message.answer("stats is empty")
